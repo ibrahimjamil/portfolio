@@ -1,6 +1,6 @@
 ---
 date: '2023-02-12'
-title: 'Serverless Task'
+title: 'Ticketing App'
 github: 'https://github.com/ibrahimjamil/ticketing-app'
 external: ''
 tech:
