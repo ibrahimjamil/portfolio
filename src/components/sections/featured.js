@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
@@ -205,7 +205,32 @@ const StyledProject = styled.div`
 `;
 
 const Featured = ({ data }) => {
+  const [reorderProjects,setReorderProject] = useState([])
   const featuredProjects = data.filter(({ node }) => node);
+  let titlesToSortToTop = ['Merchflow SaaS', 'Syncta', 'ReelCall', 'Travelmate App', 'Devigital Site', 'Ntfx Ventures', 'My License (SA)'];
+  function sortArrayByPriority(array, priorityList) {
+    let sortedArray = [];
+    for (let i = 0; i < priorityList?.length; i++) {
+      for (let j = 0; j < array?.length; j++) {
+        if (array[j]?.node?.frontmatter?.title === priorityList[i]) {
+          sortedArray.push(array[j]);
+          break;
+        }
+      }
+    }
+    for (let i = 0; i < array.length; i++) {
+      if (!sortedArray.includes(array[i])) {
+        sortedArray.push(array[i]);
+      }
+    }
+    
+    return sortedArray;
+  }
+
+  useEffect(() => {
+    const sortedArrays = sortArrayByPriority(featuredProjects, titlesToSortToTop);
+    setReorderProject(sortedArrays);
+  }, [])
 
   const revealTitle = useRef(null);
   const revealProjects = useRef([]);
@@ -219,8 +244,8 @@ const Featured = ({ data }) => {
       <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
 
       <div>
-        {featuredProjects &&
-          featuredProjects.map(({ node }, i) => {
+        {reorderProjects &&
+          reorderProjects?.map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover } = frontmatter;
 
