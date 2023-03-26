@@ -8,7 +8,7 @@ skills:
   - Badminton
 ---
 
-Hello! I'm Ibrahim jamil
+Hy! I'm Ibrahim jamil
 
 I am a full stack developer having 4+ years of experience in making saas applications both frontend and backend with mobile development. I am also very much interested in devops so i done one or two projects on that also with docker, kubernetes and github-actions.
 
