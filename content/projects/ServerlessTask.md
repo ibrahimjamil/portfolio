@@ -11,5 +11,5 @@ company: ''
 showInProjects: true
 ---
 
-An App to deploy RestAPI to AWS lambda using serverless architecture its an Upwork task
+An App to deploy RestAPI to AWS lambda using serverless architectures its an Upwork task
 got 5 star review.
