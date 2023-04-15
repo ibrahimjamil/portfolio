@@ -10,7 +10,7 @@ skills:
 
 Hy! I'm Ibrahim jamil, I did my Bachelors from [University of central punjab](https://ucp.edu.pk/) in Computer Science and Engineering.
 
-I am a full stack developer with 4+ years of experience in making saas applications both frontend and backend. I am also interested in devops, i done one or two projects on that in docker, kubernetes and github-actions.
+I am a full stack developer with 4+ years of experience in making saas applications both frontend and backend. I am also interested in devops, i done one or two projects on that in docker, kubernetes.
 
 I also have certification relevant to my expertise
 [NodeJS Microservices](https://udemy-certificate.s3.amazonaws.com/pdf/UC-1c1b51a9-3d88-45b2-8b6a-d3956ec1ba68.pdf)<br/>
