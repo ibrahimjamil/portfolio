@@ -1,17 +1,17 @@
 module.exports = {
-  siteTitle: 'Ibrahim Jamil',
+  siteTitle: 'Abraham',
   siteDescription:
     'I am a full stack web developer with expertise in web, mobile, devops with skills in react-native, nestjs, mern',
   siteKeywords:
-    'software engineer, web, mobile, react-native, reactjs, nestjs, nodejs, nextjs, devops, docker, kubernetes',
+    'software engineer, web, web-development, mobile, react-native, reactjs, nestjs, nodejs, nextjs, devops, docker, kubernetes',
   siteUrl: 'https://yashitanamdeo.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Ibrahim Jamil',
-  location: 'Lahore, Pakistan',
+  name: 'Abraham',
+  location: 'London, United Kingdom',
   email: 'ibrahimjamil090@gmail.com',
-  github: 'https://github.com/yashitanamdeo',
+  github: 'https://github.com/ibrahimjamil',
   twitterHandle: '@',
   socialMedia: [
     {
