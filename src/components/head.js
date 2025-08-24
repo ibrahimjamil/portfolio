@@ -23,7 +23,7 @@ const Head = ({ metadata }) => (
   <Helmet>
     <html lang="en" prefix="og: http://ogp.me/ns#" />
     <title itemProp="name" lang="en">
-      {'Abraham'}
+      {'Ibrahim'}
     </title>
     <link rel="shortcut icon" href={favicon} />
     <link rel="canonical" href="http://yashitanamdeo.github.io/" />

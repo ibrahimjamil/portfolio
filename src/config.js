@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Abraham',
+  siteTitle: 'Ibrahim',
   siteDescription:
     'I am a full stack web developer with expertise in web, mobile, devops with skills in react-native, nestjs, mern',
   siteKeywords:
@@ -8,7 +8,7 @@ module.exports = {
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Abraham',
+  name: 'Ibrahim',
   location: 'London, United Kingdom',
   email: 'ibrahimjamil090@gmail.com',
   github: 'https://github.com/ibrahimjamil',

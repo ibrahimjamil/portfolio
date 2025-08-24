@@ -8,7 +8,7 @@ skills:
   - Badminton
 ---
 
-Hy! I'm Abraham, I did my Bachelors from [University of central punjab](https://ucp.edu.pk/) in Computer Science and Engineering.
+Hy! I'm Ibrahim, I did my Bachelors from [University of central punjab](https://ucp.edu.pk/) in Computer Science and Engineering.
 
 I am a full stack developer with 4+ years of experience in making saas applications both frontend and backend. I am also interested in devops, i done one or two projects on that in docker, kubernetes.
 
