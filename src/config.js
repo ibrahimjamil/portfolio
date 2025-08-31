@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/muhammad-ibrahim-6933b9198/',
+      url: 'https://www.linkedin.com/in/ibrahim-jamil-6933b9198/',
     },
     {
       name: 'Instagram',

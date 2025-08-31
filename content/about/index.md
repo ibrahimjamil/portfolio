@@ -8,9 +8,9 @@ skills:
   - Badminton
 ---
 
-Hy! I'm Ibrahim, I did my Bachelors from [University of central punjab](https://ucp.edu.pk/) in Computer Science and Engineering.
+Hy! I'm Ibrahim, I did my masters from [Ulster University London](https://www.ulster.ac.uk/) in Computer Science and Engineering.
 
-I am a full stack developer with 4+ years of experience in making saas applications both frontend and backend. I am also interested in devops, i done one or two projects on that in docker, kubernetes.
+Are you looking for you next big project or solution then here i am a Senior Software Engineer with 4+ years of experience in making saas applications both frontend and backend. I have experience in devops and infra.
 
 I also have certification relevant to my expertise
 [NodeJS Microservices](https://udemy-certificate.s3.amazonaws.com/pdf/UC-1c1b51a9-3d88-45b2-8b6a-d3956ec1ba68.pdf)<br/>

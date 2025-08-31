@@ -3,14 +3,16 @@ date: '2021-06-11'
 title: 'Software Engineer'
 company: 'Techdots'
 location: Lahore, Pakistan
-range: 'Jan 2021 - Present'
-url: 'https://www.linkedin.com/company/tech-dots-dev/'
+range: 'Jan 2022 - Jun 2023'
+url: 'https://www.techdots.dev/'
 ---
 
 - Leading two US based SaaS apps [Merchflow](https://merchflow.com/) and [Reelcall](https://reelcall.com/).
-- Successfully completed 2 out of 4 phases of one app.
-- Used many technologies for our apps including react, node and many
-- Successfully completing tickets and task on both apps regularly.
-- Working on payment, event-streaming and microservice here.
-- Working on optimizing queries more and more and exploring other technologies like GO and ML to expand further reach.
+
+- Designed and deployed containerized microservices (Node.js, Python, AWS Lambda) with CI/CD pipelines, cutting release cycles by 40%.
+- Built scalable database schemas from scratch and optimized query performance by 90% (8s → <1s) for 1M+ products using raw queries + metasearch indexing.
+- Developed React.js/Next.js frontends for SEO-rich product pages, improving site traffic and engagement by 30%.
+- Implemented secure session-based authentication & Stripe payments, enabling seamless user authorization and transaction handling.
+- Automated system workflows with cron jobs and serverless functions, reducing manual interventions by 60%.
+
 - Tech-stack: React, Next, Node, Nest, GraphQL, Docker, Kubernetes, Aws.
