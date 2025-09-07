@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
-const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
+const { colors, navDelay, loaderDelay } = theme;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
@@ -15,15 +14,6 @@ const StyledContainer = styled(Section)`
   div {
     width: 100%;
   }
-`;
-const StyledOverline = styled.h1`
-  color: ${colors.green};
-  margin: 0 0 20px 3px;
-  font-size: ${fontSizes.md};
-  font-family: ${fonts.SFMono};
-  font-weight: normal;
-  ${media.desktop`font-size: ${fontSizes.sm};`};
-  ${media.tablet`font-size: ${fontSizes.smish};`};
 `;
 const StyledTitle = styled.h2`
   font-size: 80px;
@@ -66,9 +56,6 @@ const Hero = ({ data }) => {
 
   const { frontmatter, html } = data[0].node;
 
-  const one = () => (
-    <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
-  );
   const two = () => (
     <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>
   );
@@ -81,15 +68,13 @@ const Hero = ({ data }) => {
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );
-const five = () => (
-  <div style={{ transitionDelay: '500ms' }}>
-    <StyledEmailLink href="tel:+447351216711">
-      📞 Call Now for Free Consultation
-    </StyledEmailLink>
-  </div>
-);
+  const five = () => (
+    <div style={{ transitionDelay: '500ms' }}>
+      <StyledEmailLink href="tel:+447351216711">Call Now for Free Consultation</StyledEmailLink>
+    </div>
+  );
 
-  const items = [one, two, three, four, five];
+  const items = [two, three, four, five];
 
   return (
     <StyledContainer>
