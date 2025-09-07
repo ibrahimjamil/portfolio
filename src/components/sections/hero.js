@@ -81,11 +81,13 @@ const Hero = ({ data }) => {
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );
-  const five = () => (
-    <div style={{ transitionDelay: '500ms' }}>
-
-    </div>
-  );
+const five = () => (
+  <div style={{ transitionDelay: '500ms' }}>
+    <StyledEmailLink href="tel:+447351216711">
+      📞 Call Now for Free Consultation
+    </StyledEmailLink>
+  </div>
+);
 
   const items = [one, two, three, four, five];
 
