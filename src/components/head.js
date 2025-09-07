@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import config from '@config';
@@ -18,6 +18,13 @@ import favicon32x32 from '@images/favicons/favicon-32x32.png';
 import favicon96x96 from '@images/favicons/favicon-96x96.png';
 import favicon16x16 from '@images/favicons/favicon-16x16.png';
 import msIcon144x144 from '@images/favicons/ms-icon-144x144.png';
+
+useEffect(() => {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ window.dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'AW-17537413754');
+}, []);
 
 const Head = ({ metadata }) => (
   <Helmet>
@@ -69,6 +76,7 @@ const Head = ({ metadata }) => (
     <meta name="msapplication-TileColor" content={config.colors.navy} />
     <meta name="msapplication-TileImage" content={msIcon144x144} />
     <meta name="theme-color" content={config.colors.navy} />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17537413754" />
   </Helmet>
 );
 
