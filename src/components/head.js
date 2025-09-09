@@ -69,7 +69,17 @@ const Head = ({ metadata }) => (
     <meta name="msapplication-TileColor" content={config.colors.navy} />
     <meta name="msapplication-TileImage" content={msIcon144x144} />
     <meta name="theme-color" content={config.colors.navy} />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17537413754" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17537413754" />
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-17537413754');
+      `,
+      }}
+    />
   </Helmet>
 );
 
